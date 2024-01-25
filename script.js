@@ -58,3 +58,4 @@ scissors.addEventListener('click', function() {
         ans.innerText = "scissors";
     }
 });
+//
