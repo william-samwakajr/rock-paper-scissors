@@ -60,3 +60,35 @@
         color: white;
         text-decoration: none;
     }
+    /*-------------- game styling---------*/
+    
+    .game-area {
+        height: 900px;
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+    }
+    
+    .count {
+        display: grid;
+        place-items: center;
+    }
+    
+    .number {
+        font-size: 5.5rem;
+        font-family: Namecat;
+        color: #F5761A;
+    }
+    
+    .id {
+        text-align: center;
+        font-size: 5.5rem;
+        font-family: Namecat;
+        color: #F5761A;
+    }
+    
+    .score {
+        text-align: center;
+        font-size: 4rem;
+        font-family: Namecat;
+        color: #F2af13;
+    }
