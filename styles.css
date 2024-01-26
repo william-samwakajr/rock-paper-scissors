@@ -92,3 +92,27 @@
         font-family: Namecat;
         color: #F2af13;
     }
+    
+    .player {
+        display: grid;
+        grid-template-rows: 15% 70% 15%;
+    }
+    
+    .computer {
+        display: grid;
+        grid-template-rows: 15% 70% 15%;
+    }
+    
+    .buttons {
+        width: 7rem;
+        height: 3.5rem;
+        background-image: linear-gradient(to right bottom, #f5761a, #f2af13);
+        font-family: Namecat;
+        border-radius: 10px;
+        margin: 1rem;
+    }
+    
+    .choice {
+        display: flex;
+        justify-content: center;
+    }
