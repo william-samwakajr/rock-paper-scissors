@@ -1,7 +1,7 @@
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
-let computerChoice = Math.floor(Math.random() * 3);
+let computerChoice = null;
 
 class contestant {
     constructor() {
@@ -12,3 +12,7 @@ class contestant {
 
 const player = new contestant();
 const computer = new contestant();
+
+rock.addEventListener('click', () => {
+
+})
