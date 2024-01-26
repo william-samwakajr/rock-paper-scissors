@@ -1,6 +1,7 @@
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
+const image = document.querySelector('.player-image')
 let computerChoice = null;
 
 class contestant {
@@ -14,5 +15,5 @@ const player = new contestant();
 const computer = new contestant();
 
 rock.addEventListener('click', () => {
-
+    image.src = "./assets/player paper.png"
 })

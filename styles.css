@@ -65,12 +65,11 @@
     .game-area {
         height: 900px;
         display: grid;
-        grid-template-columns: 45% 10% 45%;
+        grid-template-columns: 45% 15% 45%;
     }
     
     .count {
-        display: grid;
-        place-items: center;
+        text-align: center;
     }
     
     .number {
@@ -79,11 +78,22 @@
         color: #F5761A;
     }
     
+    .point {
+        font-size: 4rem;
+        font-family: Namecat;
+        color: #F2af13;
+    }
+    
     .id {
         text-align: center;
         font-size: 5.5rem;
         font-family: Namecat;
         color: #F5761A;
+    }
+    
+    .image {
+        display: grid;
+        place-items: center;
     }
     
     .score {
@@ -115,4 +125,8 @@
     .choice {
         display: flex;
         justify-content: center;
+    }
+    
+    img {
+        border: none;
     }
