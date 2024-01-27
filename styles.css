@@ -130,3 +130,41 @@
     img {
         border: none;
     }
+    /*---------mobile styling------*/
+    
+    @media (max-width:800px) {
+        body {
+            width: 400px;
+            height: 800px;
+        }
+        .id {
+            width: 150px;
+            font-size: 2rem;
+        }
+        .game-area {
+            width: 350px;
+            height: 700px;
+        }
+        .player-image {
+            width: 150px;
+            height: 300px;
+        }
+        .computer-image {
+            width: 150px;
+            height: 300px;
+            margin-right: 100px;
+        }
+        .image {
+            width: 200px;
+            height: 400px;
+        }
+        .choice {
+            z-index: 2;
+            width: 350px;
+            margin-left: 25px;
+        }
+        .point {
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+    }
