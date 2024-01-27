@@ -75,7 +75,7 @@ rock.addEventListener('click', () => {
 paper.addEventListener('click', () => {
     announcer.innerHTML = '';
     playerImage.src = "./assets/player paper.png";
-    player.choice = choices[0]
+    player.choice = choices[1]
     computer.choice = choices[Math.floor(Math.random() * 3)]
     winConditon
         .then(() => {
@@ -112,7 +112,7 @@ paper.addEventListener('click', () => {
 scissors.addEventListener('click', () => {
     announcer.innerHTML = '';
     playerImage.src = "./assets/player scissors.png"
-    player.choice = choices[0]
+    player.choice = choices[2]
     computer.choice = choices[Math.floor(Math.random() * 3)]
     winConditon
         .then(() => {
@@ -132,7 +132,7 @@ scissors.addEventListener('click', () => {
             }, 2500)
         }).then(() => {
             setTimeout(() => {
-                if (player.choice == 'scissors' && computer.choice == 'rock') {
+                if (player.choice == 'scissors' && computer.choice == 'scissors') {
                     announcer.innerHTML = 'DRAW';
                 } else if (player.choice == 'scissors' && computer.choice == 'paper') {
                     announcer.innerHTML = 'WINNER';
