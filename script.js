@@ -37,6 +37,7 @@ function computerTurn() {
 };
 rock.addEventListener('click', () => {
     announcer.innerHTML = '';
+    computerImage.src = '';
     playerImage.src = "./assets/player rock.png";
     player.choice = choices[0]
     computer.choice = choices[Math.floor(Math.random() * 3)]
@@ -74,6 +75,7 @@ rock.addEventListener('click', () => {
 });
 paper.addEventListener('click', () => {
     announcer.innerHTML = '';
+    computerImage.src = '';
     playerImage.src = "./assets/player paper.png";
     player.choice = choices[1]
     computer.choice = choices[Math.floor(Math.random() * 3)]
@@ -111,6 +113,7 @@ paper.addEventListener('click', () => {
 })
 scissors.addEventListener('click', () => {
     announcer.innerHTML = '';
+    computerImage.src = '';
     playerImage.src = "./assets/player scissors.png"
     player.choice = choices[2]
     computer.choice = choices[Math.floor(Math.random() * 3)]
